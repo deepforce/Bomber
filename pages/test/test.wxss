@@ -1,0 +1,9 @@
+/* pages/test/test.wxss */
+.page-section{
+  margin-bottom: 20rpx;
+}
+.flex-wrp {display: flex;}
+.bc_black {background: black;width:15px; height: 15px;}
+.bc_gray {background: #EEEEEE;width:15px; height: 15px;}
+.bc_red{background: red;width:15px; height: 15px;}
+.bc_blue{background: blue;width:15px; height: 15px;}

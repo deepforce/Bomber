@@ -1,0 +1,15 @@
+<view class="flex-wrp" wx:for="{{num}}">
+  <view wx:for="{{array[item]}}">
+  <view class="bc_black" wx:if="{{item==1}}"></view>
+  <view class="bc_gray" wx:elif="{{item==0}}"></view>
+  <view class="bc_blue" wx:elif="{{item==2}}"></view>
+  <view class="bc_red" wx:elif="{{item<0}}"></view>
+  </view>
+</view>
+<view class="flex-wrp">
+<button bindtap="left_move">left</button>
+<button bindtap="right_move">right</button>
+<button bindtap="up_move">up</button>
+<button bindtap="down_move">down</button>
+</view>
+<button bindtap="setbomb">A</button>
